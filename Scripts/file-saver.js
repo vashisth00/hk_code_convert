@@ -7,7 +7,7 @@
 
 var textValue=x.value;
 
-  if (word||word2) {
+  if (textValue = word) {
     text = "import 'package:flutter/material.dart';\n  void main() => runApp(MyApp());";
   } else {
     text = "Wrong XML Code ";
