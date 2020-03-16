@@ -3,7 +3,12 @@
 
   x = document.getElementById("numb").value;
   var word = 'package com.example.helloworld;';
-    var word2 = 'package com.example.helloworld;';
+
+   var str = document.getElementById("demo").innerHTML;
+    var res = str.replace(/blue|house|car/gi, function (x) {
+      return x.toUpperCase();
+    });
+    document.getElementById("demo").innerHTML = res;
 
 var textValue=x.value;
 
